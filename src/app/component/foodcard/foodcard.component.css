@@ -1,0 +1,43 @@
+.foodcard{
+  padding: 20px;
+}
+.card-title{
+  font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.card-text{
+  color: #686b78;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.restaurent-details{
+  display: inline-block;
+}
+.restaurent-details > div{
+    display: inline;
+    margin: 0 20px;
+    font-size: 12px;
+    color: #535665;
+    font-weight: 400;
+    height: 20px;
+}
+.rating{
+  background-color: #48c479;
+  color: #ffffff !important;
+  padding: 5px;
+}
+.card{
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 2rem;
+}
+.card-footer{
+  background-color: transparent;
+}
+.card:hover{
+  cursor: pointer;
+  border-color: #d3d5df;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}

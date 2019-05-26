@@ -1,0 +1,29 @@
+.btn-custom{
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #fc8019;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+  width: 110px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0;
+}
+.btn{
+  border-radius: 0px;
+}
+.btn-custom:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 8px #a9abb2;
+}

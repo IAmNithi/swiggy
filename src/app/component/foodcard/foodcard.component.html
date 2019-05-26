@@ -1,0 +1,23 @@
+<div class="foodcard">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 pb-2" *ngFor="let data of foodMenu">
+          <div class="card">
+              <img class="card-img-top p-4" src={{data.img}} alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">{{data.name}}</h5>
+                <p class="card-text">{{data.slogan}}</p>
+                <div class="restaurent-details">
+                  <div class="rating"><i class="fas fa-star"></i> {{data.rating}}</div>
+                  <div>{{data.time}}</div>
+                  <div>{{data.priceRange}}</div>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <app-button buttonText="view"></app-button>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>

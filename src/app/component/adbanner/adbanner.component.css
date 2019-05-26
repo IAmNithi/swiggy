@@ -1,0 +1,28 @@
+.adbanner{
+    padding: 20px 0;
+    background-color: #f2f6fc;
+}
+.ad-image{
+  display: block;
+  width: 70px;
+  height: 68px;
+}
+.ad-image-round{
+  display: block;
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+  width: 87px;
+  height: 85px;
+}
+.ad-text{
+  padding-left: 10px;
+}
+.ad-text h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.ad-text p{
+  font-size: .75rem;
+  color: #93959f;
+  font-weight: 300;
+}

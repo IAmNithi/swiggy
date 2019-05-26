@@ -1,0 +1,18 @@
+.food-banner{
+    padding: 20px 20px;
+    background-color: #171a29;
+}
+.banner-img{
+  display: block;
+}
+.banner-img-container img{
+  cursor: pointer;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.banner-img-container img:hover{
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}

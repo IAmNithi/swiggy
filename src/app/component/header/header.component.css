@@ -1,0 +1,20 @@
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+a{
+  text-decoration: none;
+} .text-link{
+  color: #121416;
+  font-weight: 700;
+}
+.text-link:hover{
+  color: #fc8019;
+}
+.logo-text{
+  font-weight: 700;
+  color: #3d4152;
+  text-transform: uppercase;
+  cursor: pointer;
+}
